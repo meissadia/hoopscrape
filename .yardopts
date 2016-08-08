@@ -1,0 +1,7 @@
+--readme README.md
+--title 'HoopScrape API Documentation'
+--charset utf-8
+'lib/**/*.rb'
+-
+*.md
+LICENSE
