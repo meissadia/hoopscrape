@@ -379,9 +379,9 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/meissa
 <br>
 &copy; 2016 Meissa Dia
 [CHANGELOG]: ./CHANGELOG.md
-[RubyDoc.info]: http://www.rubydoc.info/gems/hoopscrape/0.1.0
-[Navigator]: http://www.rubydoc.info/gems/hoopscrape/0.1.0/Navigator
-[Array#to_structs]: http://www.rubydoc.info/gems/hoopscrape/0.1.0/Array#to_structs-instance_method
-[Array#to_hashes]: http://www.rubydoc.info/gems/hoopscrape/0.1.0/Array#to_hashes-instance_method
-[Array#change_sym!]: http://www.rubydoc.info/gems/hoopscrape/0.1.0/Array#change_sym%21-instance_method
+[RubyDoc.info]: http://www.rubydoc.info/gems/hoopscrape/1.0.0
+[Navigator]: http://www.rubydoc.info/gems/hoopscrape/1.0.0/Navigator
+[Array#to_structs]: http://www.rubydoc.info/gems/hoopscrape/1.0.0/Array#to_structs-instance_method
+[Array#to_hashes]: http://www.rubydoc.info/gems/hoopscrape/1.0.0/Array#to_hashes-instance_method
+[Array#change_sym!]: http://www.rubydoc.info/gems/hoopscrape/1.0.0/Array#change_sym%21-instance_method
 [SymbolDefaults]: ./lib/hoopscrape/SymbolDefaults.rb
