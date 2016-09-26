@@ -5,7 +5,7 @@ class TestHoopScrape < Minitest::Test
     hs    = HoopScrape.new
     bs    = hs.boxscore(400828991)
     stats = bs.homePlayers # Returns multidimensional array of Home Player stats
-
+    # binding.pry
     # Convert String array to Hash array
     stat_hashes = stats[].to_hashes # Returns array of Hashes
     assert_equal 'D. Favors', stat_hashes.first[:name],   'Boxscore.Name'

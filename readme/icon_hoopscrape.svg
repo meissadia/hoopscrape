@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 255.99999 255.99996"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="icon_hoopscrape.svg"
+   inkscape:export-filename="/Users/Meis/coding/ruby/portfolio-ruby/source/images/icon-hoopscrape.png"
+   inkscape:export-xdpi="89.68"
+   inkscape:export-ydpi="89.68">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="232.82538"
+     inkscape:cy="163.75902"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     units="px"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     showborder="true"
+     inkscape:window-width="1680"
+     inkscape:window-height="1001"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="background">
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:0.93567254;fill-rule:nonzero;stroke:#000000;stroke-width:0.99961072;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4166"
+       width="255.90036"
+       height="255.90036"
+       x="-0.71448559"
+       y="0.38552186"
+       rx="0"
+       ry="0" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(135.49397,-340.17514)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4140"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'SF Sports Night';-inkscape-font-specification:'SF Sports Night, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:#d4aa00;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="matrix(4.4011654,0,0,4.7283794,-155.19326,-634.53347)"
+       inkscape:export-filename="/Users/Meis/coding/ruby/portfolio-ruby/source/images/logo-hoopscrape.png"
+       inkscape:export-xdpi="85.580002"
+       inkscape:export-ydpi="85.580002"><flowRegion
+         id="flowRegion4142"><rect
+           id="rect4144"
+           width="788.92914"
+           height="344.46201"
+           x="7.0710678"
+           y="208.05061"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'SF Sports Night';-inkscape-font-specification:'SF Sports Night, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;stroke:#d4aa00;stroke-opacity:1" /></flowRegion><flowPara
+         id="flowPara4150">H<flowSpan
+   style="fill:#d4aa00;stroke:#000000;stroke-opacity:1"
+   id="flowSpan4168">S</flowSpan></flowPara></flowRoot>  </g>
+</svg>

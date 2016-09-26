@@ -103,8 +103,9 @@ class NbaBoxScore
         case cell.attribute('class').text
         when 'name'
           curr_row << cell.children[0].attribute('href').text[%r{id/(\d+)}, 1] # Player ID
-          curr_row << cell.children[0].text.strip # Player Short Name (i.e. D. Wade)
+          curr_row << cell.children[0].children[0].text.strip # Player Short Name (i.e. D. Wade)
           curr_row << cell.children[1].text.strip # Position
+          # binding.pry
         when 'fg', '3pt', 'ft'
           # Made-Attempts
           curr_row += c_val.split('-')

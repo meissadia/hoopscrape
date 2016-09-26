@@ -15,10 +15,9 @@ It provides a number of ways to simplify data interaction, including :
 + Hashes - Pass data directly to ActiveRecord CRUD methods for easy database interaction.
 + String arrays - Raw data for you to manipulate as you see fit.
 
-### Change Summary
-Version 1.0.0 - See the [CHANGELOG] for additional information
-+ Initial release under new name
-+ Note about Schedules: There are some offseason data inconsistencies at the datasource (ex. some teams already display 2016-17 preseason data and an empty regular season page, others don't and will default to displaying 2015-16 data) so for best results specify a year: and season: when reading team schedules.  
+{{CLOG}}
++ Please report any [issues] you encounter!
+
 
 ## Installation
 #### Rails
