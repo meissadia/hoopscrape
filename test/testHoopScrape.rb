@@ -49,16 +49,16 @@ class TestHoopScrape < Minitest::Test
     #### Access a Player
     player = hs.player(2991473) # Returns an NbaPlayer object
     assert_equal 'Anthony Bennett', player.name,    'Player.name'
-    assert_equal '245',             player.weight,  'Player.weight'
+    assert_equal '235',             player.weight,  'Player.weight'
 
     #### Access the NBA Team List
     hs = HoopScrape.new(format: :to_hashes)
 
     team_list = hs.teamList # multidimensional array of Team info
 
-    assert_equal 'Boston Celtics', team_list.first[:name],    'Team.name'
-    assert_equal 'BOS',            team_list.first[:team],    'Team.abbr'
-    assert_equal 'Atlantic',       team_list.first[:division],  'Team.div'
+    assert_equal 'Boston Celtics', team_list.first[:name],     'Team.name'
+    assert_equal 'BOS',            team_list.first[:team],     'Team.abbr'
+    assert_equal 'Atlantic',       team_list.first[:division], 'Team.div'
 
     #### Customize field names
     m_rost = S_ROSTER.dup.change_sym!(:name, :full_name).change_sym!(:salary, :crazy_money)
@@ -80,7 +80,6 @@ class TestHoopScrape < Minitest::Test
     # Get a Roster from a Team ID            vvvvvvvvvvvvvvvvvvvvvv
     HoopScrape.boxscore(400827977).homeTotals[0].roster(:to_hashes).players.first[:name]
 
-    skip
     # Get a Schedule from a Team ID            vvvvvvvvvvvvvvvvvvvvvv
     HoopScrape.boxscore(400827977).homeTotals[0].schedule(:to_hashes).pastGames.first.boxscore(:to_structs)
 
