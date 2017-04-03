@@ -83,7 +83,7 @@ class NbaBoxScore
   # 	bs.readGameDate(doc)
   #
   def readTeamNames(d)
-    names = d.xpath('//div[@class="team-info"]/*/span[@class="long-name" or @class="short-name"]')
+    names = d.xpath('//span[@class="long-name" or @class="short-name"]')
     away = names[0].text + ' ' + names[1].text
     home = names[2].text + ' ' + names[3].text
     [away, home]

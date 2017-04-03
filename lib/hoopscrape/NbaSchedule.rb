@@ -155,7 +155,7 @@ class NbaSchedule
   def pastGame(row, result, season_type)
     row.children[0, 4].each_with_index do |cell, cnt|
       txt = cell.text.chomp
-      if cnt == 0	# Game Date
+      if cnt.zero?	# Game Date
         result << txt.split(',')[1].strip
       elsif cnt == 1 			 									# Home Game? and Opponent ID
         saveHomeOpponent(cell, result, txt)
@@ -173,7 +173,7 @@ class NbaSchedule
   def futureGame(row, result)
     row.children[0, 4].each_with_index do |cell, cnt|
       txt = cell.text.strip
-      if cnt == 0 # Game Date
+      if cnt.zero? # Game Date
         result << txt.split(',')[1].strip
       elsif cnt == 1 				    # Home/Away, Opp tid
         saveHomeOpponent(cell, result, txt)

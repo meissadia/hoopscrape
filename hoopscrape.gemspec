@@ -1,4 +1,4 @@
-require_relative 'lib/hoopscrape'
+require './lib/hoopscrape.rb'
 
 Gem::Specification.new do |s|
   s.name        = 'hoopscrape'
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.files       = Dir.glob('{bin,lib}/**/*') + ['README.md', 'LICENSE', '.yardopts', 'Rakefile', 'CHANGELOG.md']
   s.platform    = Gem::Platform.local
   s.homepage    = 'https://github.com/meissadia/hoopscrape'
-  s.license     = 'GNU GPLv3'
+  s.license     = 'GPL-3.0'
   s.required_ruby_version = '>= 1.9.3'
   s.add_runtime_dependency     'nokogiri', '~> 1.6'
   s.add_runtime_dependency     'json', '< 2.0'
