@@ -1,7 +1,6 @@
 <img style='width:100%' src='./readme/logo-hoopscrape.png' />
 hoopscrape is not associated with ESPN or the NBA   
 
-## Status
 [![Gem Version](https://badge.fury.io/rb/hoopscrape.svg)](https://badge.fury.io/rb/hoopscrape)
 [![Code Climate](https://codeclimate.com/github/meissadia/hoopscrape/badges/gpa.svg)](https://codeclimate.com/github/meissadia/hoopscrape)
 [![Build Status](https://travis-ci.org/meissadia/hoopscrape.svg?branch=master)](https://travis-ci.org/meissadia/hoopscrape)
