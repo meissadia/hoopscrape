@@ -49,7 +49,8 @@ It provides a number of ways to simplify data interaction, including :
 + String arrays - Raw data for you to manipulate as you see fit.
 
 Version 1.0.2
-+ NbaBoxScore: fix error reading team names 
++ NbaBoxScore: fix error reading team names
++ gemspec: Update license identifier to GPL-3.0
 
 + Please report any [issues] you encounter!
 
