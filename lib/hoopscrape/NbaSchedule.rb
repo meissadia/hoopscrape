@@ -214,6 +214,7 @@ class NbaSchedule
   end
 
   def extract_boxscore_id(cell)
+    return 0 if cell.text.include? 'TBA'
     boxscore_id = cell.children.children.children[1].attributes['href']
     return 0 if boxscore_id.nil?
     return boxscore_id.text.split('=')[1] if boxscore_id.text.include?('recap?id=')
