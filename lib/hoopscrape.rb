@@ -3,7 +3,7 @@ require_relative 'hoopscrape/requires'
 # HoopScrape main class
 class HoopScrape
   # Gem Version
-  VERSION = '1.0.2'.freeze
+  VERSION = '1.0.3'.freeze
   # initialize
   def initialize(config = {})
     @format = defaultFormat(config[:format])

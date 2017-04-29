@@ -1,5 +1,8 @@
 ### Change Log :: HoopScrape
 
+## Version 1.0.3
++ NbaSchedule: fix error in extract_boxscore_id when reading Playoff schedules
+
 ## Version 1.0.2
 + NbaBoxScore: fix error reading team names
 + gemspec: Update license identifier to GPL-3.0
