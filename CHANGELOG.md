@@ -1,5 +1,8 @@
 ### Change Log :: HoopScrape
 
+## Version 1.0.4
++ NbaBoxScore: Update failed tests to utilize pattern matching.
+
 ## Version 1.0.3
 + NbaSchedule: fix error in extract_boxscore_id when reading Playoff schedules
 

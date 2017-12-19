@@ -7,3 +7,4 @@ rubocop
 _scratchpad.rb
 Gemfile.lock
 /readme/logo_hoopscrape.svg
+/cc-test-reporter
