@@ -9,7 +9,6 @@ Gem::Specification.new do |s|
   s.authors     = ['Meissa Dia']
   s.email       = ['meissadia@gmail.com']
   s.files       = Dir.glob('{bin,lib}/**/*') + ['README.md', 'LICENSE', '.yardopts', 'Rakefile', 'CHANGELOG.md']
-  s.platform    = Gem::Platform.local
   s.homepage    = 'https://github.com/meissadia/hoopscrape'
   s.license     = 'GPL-3.0'
   s.required_ruby_version = '>= 1.9.3'
