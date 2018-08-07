@@ -41,5 +41,5 @@ Lint/UselessAssignment:
 Style/MutableConstant:
   Enabled: false
 
-Style/ExtraSpacing:
+Layout/ExtraSpacing:
   Enabled: false

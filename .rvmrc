@@ -1,1 +1,1 @@
-rvm use 1.9.3@hoopscrape_project --create
+rvm use 2.1.0@hoopscrape_project --create

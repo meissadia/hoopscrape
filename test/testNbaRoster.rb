@@ -29,13 +29,13 @@ class TestNbaRoster < Minitest::Test
     roster = NbaRoster.new(file: 'test/data/rosterData.html',
                            format: :to_structs)
 
-    assert_equal nil,  roster.players.prev
-    assert_equal nil,  roster.players.curr
+    assert_nil roster.players.prev
+    assert_nil roster.players.curr
     assert_equal true, roster.players.next.name   == 'Trevor Booker'
     assert_equal true, roster.players.next.name   == 'Trey Burke'
     assert_equal true, roster.players[].last.name == 'Jeff Withey'
     assert_equal true, roster.players.last.name   == 'Jeff Withey'
     assert_equal true, roster.players.prev.name   == 'Tibor Pleiss'
-    assert_equal nil,  roster.players[29]
+    assert_nil roster.players[29]
   end
 end

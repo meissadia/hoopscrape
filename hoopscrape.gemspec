@@ -11,10 +11,10 @@ Gem::Specification.new do |s|
   s.files       = Dir.glob('{bin,lib}/**/*') + ['README.md', 'LICENSE', '.yardopts', 'Rakefile', 'CHANGELOG.md']
   s.homepage    = 'https://github.com/meissadia/hoopscrape'
   s.license     = 'GPL-3.0'
-  s.required_ruby_version = '>= 1.9.3'
-  s.add_runtime_dependency     'nokogiri', '~> 1.6'
+  s.required_ruby_version = '>= 2.1.0'
+  s.add_runtime_dependency     'nokogiri', '~> 1.8', '>= 1.8.2'
   s.add_runtime_dependency     'json', '< 2.0'
   s.add_development_dependency 'minitest', '~> 5.9'
   s.add_development_dependency 'rake', '~> 10.4'
-  s.add_development_dependency 'rubocop', '~> 0.41.2'
+  s.add_development_dependency 'rubocop', '~> 0.49.0'
 end

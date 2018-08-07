@@ -22,9 +22,9 @@ class NbaTeamList
 
     @teamList = []
     h = 0 # Head of teamNames range
-    west_conf = %w(Northwest Pacific Southwest) # Western Conference Divs
+    west_conf = %w[Northwest Pacific Southwest] # Western Conference Divs
     # Process Teams by Division
-    divs = %w(Atlantic Pacific Central Southwest Southeast Northwest)
+    divs = %w[Atlantic Pacific Central Southwest Southeast Northwest]
     divs.each do |div|
       @teamList += processTeams(div, team_names[h, 5], west_conf) # Store Team Data
       h += 5

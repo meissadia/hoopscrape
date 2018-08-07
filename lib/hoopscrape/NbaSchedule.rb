@@ -238,7 +238,7 @@ class NbaSchedule
   # Store TV?
   def saveTV(cell, txt, result)
     # Network image, link or name?
-    result << (%w(a img).include?(cell.children[0].node_name) || txt.size > 1).to_s
+    result << (%w[a img].include?(cell.children[0].node_name) || txt.size > 1).to_s
   end
 
   # Store Processed Schedule Row
@@ -251,7 +251,7 @@ class NbaSchedule
 
   #  Adjust and format dates
   def formatGameDate(month_day, year, game_time = '00:00:00')
-    year += 1 unless %w(Oct Nov Dec).include?(month_day.split[0])
+    year += 1 unless %w[Oct Nov Dec].include?(month_day.split[0])
     d = DateTime.parse(game_time + ' , ' + month_day + ',' + year.to_s)
     d.strftime('%Y-%m-%d %H:%M:%S') # Game DateTime String
   end

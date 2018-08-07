@@ -33,12 +33,12 @@ class TestHoopScrape < Minitest::Test
     past     = schedule.pastGames         # multidimensional array of completed games
     schedule.futureGames                  # multidimensional array of upcoming games
 
-    assert_equal nil, schedule.nextTeamId, 'Schedule.Next Team'
+    assert_nil schedule.nextTeamId, 'Schedule.Next Team'
 
     hs.schedule('BOS', season: 1)                                  # Get Preseason schedule
     playoffs = hs.schedule('CLE', season: 3, year: 2016, f_mat: :to_structs)   # Get Playoff schedule
     last_game = playoffs.allGames.last
-    assert_equal %w(16 5), [last_game.wins, last_game.losses]
+    assert_equal %w[16 5], [last_game.wins, last_game.losses]
 
     # Past Schedule Games as Objects
     assert_equal 'Oct 28', past.first.date,       'schedule.Game Date'

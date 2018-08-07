@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-gem 'json', '< 2.0.0'     # Ruby 1.9.3 compatibility
-gem 'nokogiri', '~> 1.6.8'
-gem 'rake', '~> 10.4.2'
-gem 'minitest'
 gem 'codeclimate-test-reporter', group: :test, require: nil
-gem 'rubocop', '~> 0.41.2', group: :test, require: nil # Ruby 1.9.3 compatibility
+gem 'json', '< 2.0.0'     # Ruby 1.9.3 compatibility
+gem 'minitest'
+gem 'nokogiri', '~> 1.8.2'
+gem 'rake', '~> 10.4.2'
+gem 'rubocop', '~> 0.49.0', group: :test, require: nil
 gem 'simplecov'

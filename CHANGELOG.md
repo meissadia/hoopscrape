@@ -1,5 +1,9 @@
 ### Change Log :: HoopScrape
 
+## Version 1.1
++ Fixed security vulnerabilities with Nokogiri and Rubocop.  Unfortunately, this means HoopScrape now requires Ruby >= 2.1.0
++ Updated test suite.
+
 ## Version 1.0.5
 + NbaPlayer: Add player id to return structure
 + Documentation cleanup
