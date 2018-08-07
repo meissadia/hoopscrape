@@ -1,5 +1,9 @@
 ### Change Log :: HoopScrape
 
+## Version 1.0.5
++ NbaPlayer: Add player id to return structure
++ Documentation cleanup
+
 ## Version 1.0.4
 + NbaBoxScore: Update failed tests to utilize pattern matching.
 

@@ -3,7 +3,7 @@ require_relative 'hoopscrape/requires'
 # HoopScrape main class
 class HoopScrape
   # Gem Version
-  VERSION = '1.0.4'.freeze
+  VERSION = '1.0.5'.freeze
   # initialize
   def initialize(config = {})
     @format = defaultFormat(config[:format])
@@ -23,7 +23,7 @@ class HoopScrape
   # @param (see .boxscore)
   # @return (see .boxscore)
   # @example
-  #  es.boxscore(493848273)
+  #  hs.boxscore(493848273)
   def boxscore(game_id, f_mat = nil)
     HoopScrape.boxscore game_id, (f_mat || @format)
   end
@@ -42,8 +42,8 @@ class HoopScrape
   # @param (see .roster)
   # @return (see .roster)
   # @example
-  #  es.roster('UTA')
-  #  es.roster('UTA', format: :to_structs)
+  #  hs.roster('UTA')
+  #  hs.roster('UTA', format: :to_structs)
   def roster(team_id, options = {})
     HoopScrape.roster team_id, format: (options.fetch(:format, nil) || @format)
   end
@@ -59,7 +59,7 @@ class HoopScrape
   # Return Array of Team Data
   # @return (see .teamList)
   # @example
-  #  es.teamList(:to_structs)
+  #  hs.teamList(:to_structs)
   def teamList(f_mat = nil)
     HoopScrape.teamList(f_mat || @format)
   end
@@ -84,8 +84,8 @@ class HoopScrape
   # @param (see .schedule)
   # @return (see .schedule)
   # @example
-  #  es.schedule('MIA')     # Schedule for Latest Season Type
-  #  es.schedule('DET', season: 1, year: 2016)  # Preseason Schedule
+  #  hs.schedule('MIA')     # Schedule for Latest Season Type
+  #  hs.schedule('DET', season: 1, year: 2016)  # Preseason Schedule
   def schedule(team_id, options = {})
     HoopScrape.schedule team_id,
                         season: options[:season],
@@ -106,7 +106,7 @@ class HoopScrape
   # @param (see .player)
   # @return (see .player)
   # @example
-  #  es.player(2991473)
+  #  hs.player(2991473)
   def player(espn_id)
     HoopScrape.player espn_id
   end

@@ -49,8 +49,9 @@ It provides a number of ways to simplify data interaction, including :
 + Hashes - Pass data directly to ActiveRecord CRUD methods for easy database interaction.
 + String arrays - Raw data for you to manipulate as you see fit.
 
-Version 1.0.4
-+ NbaBoxScore: Update failed tests to utilize pattern matching.
+Version 1.0.5
++ NbaPlayer: Add player id to return structure
++ Documentation cleanup
 
 + Please report any [issues] you encounter!
 

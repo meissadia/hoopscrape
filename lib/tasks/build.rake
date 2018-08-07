@@ -20,7 +20,9 @@ namespace :build do
   desc 'Prepare gem deployment.'
   task :deployment do
     Rake::Task['rubo:fix'].execute
+    puts `./cc-test-reporter before-build`
     puts Rake::Task['test'].execute
+    puts `./cc-test-reporter after-build --exit-code 0`
     puts Rake::Task['build:gem'].execute
   end
 end

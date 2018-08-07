@@ -16,6 +16,8 @@ class NbaPlayer
   attr_accessor :h_ft
   # @return [Integer] Height (in)
   attr_accessor :h_in
+  # @return [Integer] id
+  attr_accessor :id
 
   # Read Player Data
   def initialize(espn_player_id, file = '')
@@ -28,6 +30,7 @@ class NbaPlayer
     end
     return if doc.nil?
 
+    @id = espn_player_id.to_i
     readInfo(doc)
   end
 

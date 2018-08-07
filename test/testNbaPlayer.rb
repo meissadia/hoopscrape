@@ -35,5 +35,6 @@ class TestNbaPlayer < Minitest::Test
     assert DIGIT.match(player.height_ft),    'Player H_FT => Error'
     assert DIGIT.match(player.height_in),    'Player H_IN => Error'
     assert DIGIT.match(player.weight),       'Player Weight => Error'
+    assert DIGIT.match(player.id.to_s),      'Player ID => Error'
   end
 end
